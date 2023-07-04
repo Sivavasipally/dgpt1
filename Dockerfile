@@ -1,5 +1,5 @@
 # Use a base image with Python and the necessary dependencies
-FROM python:3.8-slim-buster
+FROM python:3.12-rc-bookworm
 
 # Set the working directory in the container
 WORKDIR /app
