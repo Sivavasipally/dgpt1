@@ -182,7 +182,7 @@ with gr.Blocks(title = 'Business Profiler', theme = 'base') as business_profiler
         with gr.Column(scale = 1):
 
             # Displaying the header image
-            header_image = gr.Image('business_profiler.png', interactive = False, show_label = False)
+            #header_image = gr.Image('business_profiler.png', interactive = False, show_label = False)
 
             # Displaying the interactive text box to input the company name
             company_name_prompt = gr.Textbox(placeholder = 'Please type the name of the Fortune 500 company you would like profiled.', label = 'Company to Profile:')
